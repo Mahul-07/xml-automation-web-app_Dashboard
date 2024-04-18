@@ -77,9 +77,9 @@ df_selection = df.query(
 
 hide_style="""
         <style>
-        #MainMenu {visibility:hidden;}
+        # MainMenu {visibility:hidden;}
         footer {visibility:hidden;}
-        header {visibilty:hidden;}
+        # header {visibilty:hidden;}
         </style>
         """
 st.markdown(hide_style,unsafe_allow_html=True)
